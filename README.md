@@ -1,4 +1,17 @@
-# Telegram-pars
+# Скрипт для парсинга сообщений из Telegram канала и отправки их в другой канал
 
-Get API ID and Hash. Before you start working with the Telegram API, you need to get your own API ID and Hash. This can be done by following the link https://my.telegram.org/auth?to=apps, indicating the phone number associated with the profile, and filling in the App title and Short name
-you must change api_hash, api_id on yours, and telegram token than you start file bot.py
+Этот скрипт предназначен для парсинга сообщений из указанного Telegram канала и отправки их в другой канал.
+
+## Установка и запуск
+
+1. Установите необходимые библиотеки:
+
+   ```bash
+   pip install aiogram sqlite3
+Укажите токен вашего бота в файле main.py вместо 'your_bot_token'.
+
+Запустите скрипт:
+
+bash
+Copy code
+python main.py
